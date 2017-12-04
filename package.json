@@ -1,0 +1,21 @@
+{
+  "name": "toggle_input_field",
+  "version": "0.0.1",
+  "description": "Toggle cursor between input fields using shortcut key",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuoZihYuan/Toggle-Input-Field.git"
+  },
+  "author": "LuoZihYuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuoZihYuan/Toggle-Input-Field/issues"
+  },
+  "homepage": "https://github.com/LuoZihYuan/Toggle-Input-Field#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1"
+  }
+}

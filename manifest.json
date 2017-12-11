@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Toggle Input Field",
+  "version": "0.0.1",
+
+  // "default_locale": "en",
+  "description": "Shortcut key to toggle cursor between input fields.",
+  // "icons": {
+  //   "16": "images/icon_16.png",
+  //   "48": "images/icon_48.png",
+  //   "128": "images/icon_128.png"
+  // },
+
+  // "content_scripts": [{
+  //   "js": [],
+  //   "matches": ["<all_urls>"]
+  // }],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "focus_next_input": {
+      "description": "Focus cursor onto the next input field",
+      "suggested_key": {
+        "default": "Ctrl+Period",
+        "mac": "MacCtrl+Period"
+      }
+    },
+    "focus_previous_input": {
+      "description": "Focus cursor onto the previous input field",
+      "suggested_key": {
+        "default": "Ctrl+Shift+Period",
+        "mac": "MacCtrl+Shift+Period"
+      }
+    }
+  },
+  "minimum_chrome_version": "25"
+}

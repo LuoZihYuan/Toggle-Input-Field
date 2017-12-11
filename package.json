@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/LuoZihYuan/Toggle-Input-Field#readme",
   "devDependencies": {
-    "eslint": "^4.12.1"
+    "eslint": "^4.13.0"
   }
 }

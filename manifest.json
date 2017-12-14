@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Toggle Input Field",
-  "version": "0.0.1",
+  "version": "1.0.0",
 
   // "default_locale": "en",
   "description": "Shortcut key to toggle cursor between input fields.",

@@ -22,9 +22,9 @@ chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     let command = request.commands[0];
 
-    if (command === 'focus_next_input') {
+    if (command === 'focus_next') {
       targetElements.push(targetElements.shift());
-    } else if (command === 'focus_previous_input') {
+    } else if (command === 'focus_prev') {
       targetElements.unshift(targetElements.pop());
     }
     

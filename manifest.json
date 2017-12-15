@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Toggle Input Field",
+  "name": "__MSG_appName__",
   "version": "1.0.0",
 
-  // "default_locale": "en",
-  "description": "Toggle cursor between input fields using shortcut keys.",
+  "default_locale": "en",
+  "description": "__MSG_appDesc__",
   // "icons": {
   //   "16": "images/icon_16.png",
   //   "48": "images/icon_48.png",
@@ -19,15 +19,15 @@
     "scripts": ["js/background.js"]
   },
   "commands": {
-    "focus_next_input": {
-      "description": "Focus cursor onto the next input field",
+    "focus_next": {
+      "description": "__MSG_cmdFocusNextDesc__",
       "suggested_key": {
         "default": "Ctrl+I",
         "mac": "MacCtrl+I"
       }
     },
-    "focus_previous_input": {
-      "description": "Focus cursor onto the previous input field",
+    "focus_prev": {
+      "description": "__MSG_cmdFocusPrevDesc__",
       "suggested_key": {
         "default": "Ctrl+Shift+I",
         "mac": "MacCtrl+Shift+I"

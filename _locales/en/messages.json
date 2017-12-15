@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "Toggle Input Field",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Toggle cursor between input fields using shortcut keys.",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "cmdFocusNextDesc": {
+    "message": "Next input field",
+    "description": "The description of the command, displayed in the chrome://extension page."
+  },
+  "cmdFocusPrevDesc": {
+    "message": "Previous input field",
+    "description": "The description of the command, displayed in the chrome://extension page."
+  }
+}

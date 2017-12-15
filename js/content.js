@@ -5,15 +5,17 @@ let targetElements = [];
 window.addEventListener('load', function() {
 
   let inputs = document.body.getElementsByTagName('input');
-  for (let i = 0; i < inputs.length; i++) {
-    targetElements.push(inputs[i]);
+  for (let input of inputs) {
+    targetElements.push(input);
   }
+
   let textareas = document.body.getElementsByTagName('textarea');
-  for (let i = 0; i < textareas.length; i++) {
-    targetElements.push(textareas[i]);
+  for (let textarea of textareas) {
+    targetElements.push(textarea);
   }
-  for (let i = 0; i < toggleInputFieldPlugins.length; i++) {
-    toggleInputFieldPlugins[i].filter(targetElements);
+
+  for (let plugin of toggleInputFieldPlugins) {
+    plugin.filter(targetElements);
   }
 
 }, false);

@@ -4,7 +4,7 @@
   "version": "1.0.0",
 
   // "default_locale": "en",
-  "description": "Shortcut key to toggle cursor between input fields.",
+  "description": "Toggle cursor between input fields using shortcut keys.",
   // "icons": {
   //   "16": "images/icon_16.png",
   //   "48": "images/icon_48.png",
@@ -22,15 +22,15 @@
     "focus_next_input": {
       "description": "Focus cursor onto the next input field",
       "suggested_key": {
-        "default": "Ctrl+Period",
-        "mac": "MacCtrl+Period"
+        "default": "Ctrl+I",
+        "mac": "MacCtrl+I"
       }
     },
     "focus_previous_input": {
       "description": "Focus cursor onto the previous input field",
       "suggested_key": {
-        "default": "Ctrl+Shift+Period",
-        "mac": "MacCtrl+Shift+Period"
+        "default": "Ctrl+Shift+I",
+        "mac": "MacCtrl+Shift+I"
       }
     }
   },
